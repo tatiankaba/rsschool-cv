@@ -14,6 +14,8 @@
 
 ## Briefly About Myself:
 
+I'm on my way to become a Junior Front-end Developer.
+
 ## Skills and Proficiency:
 - HTML5, CSS3
 - JavaScript Basics
@@ -23,7 +25,7 @@
 
 ## Code example:
 
-This code doesn't work correctly
+This code doesn't work correctly:
 ```
 def multiply(a,b):
 	a*b

@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #262626;
+    color:#a4a5a6;
+    padding: 20px 20px;
+    position: sticky;
+    top:0;
+    vertical-align: top;
+}
+
+.logo {
+    width:60px;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color:#a4a5a6;
+}
+
+nav ul li a:hover {
+    color:#e0a80d;
+}
+nav ul {
+    display: flex;
+    justify-content:space-around;
+    min-width: 800px;
+   
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+
+section.about {
+    background-color: #2d2e2e;
+    min-height: 500px;
+    padding: 60px 60px;
+    vertical-align: center;
+}
+
+
+.about img.photo {
+    width: 300px;
+    border-radius: 100%;
+    
+}
+
+.about_content{
+    margin-left: 200px;
+    max-width: 450px;
+    text-align: left;
+    display: inline-block;
+}
+
+.about .my_name {
+    color:#a4a5a6;
+    font-size: 32px;
+}
+
+.about .my_surname {
+    color:#e0a80d;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.about .about_me {
+    color:#a4a5a6;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 200;
+    margin-top: 15px;
+}
+
+.about .about_profession {
+    color:#979899;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+section.skills {
+    background-color: #2b2c2c;
+    padding: 60px 60px;
+}
+
+.title {
+    font-size: 32px;
+    color:#a4a5a6;
+    text-align: center;
+
+}
+
+.skills .items_wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color:#a4a5a6;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 25px;
+}
+
+.skills .item {
+    max-width: 450px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.divide {
+    background-color:#e0a80d;
+    width: 40px;
+    margin: 0 auto;
+    height: 2px;
+    margin-top: 10px;
+
+}
+
+section.about .divide {
+    margin: 0;
+    margin-top: 20px;
+    width:150px;
+}
+
+.skills .item_text {
+    margin-top: 10px;
+}
+
+.skills .item_number {
+    position: absolute;
+    left:-40px;
+    font-size: 20px;
+    color:#e0a80d;
+    font-weight: bold;
+}
+
+.skills .item_title {
+    font-size: 20px;
+}
+
+section.code {
+    background-color: gray;
+    padding: 60px 60px;
+    min-height: 300px;
+}
+
+.code .title {
+    color:  #2b2c2c;
+}
+
+.code .code_example {
+    padding: 10px;
+    width:900px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+section.projects {
+    background-color: #2d2e2e;;
+    padding: 60px 60px;
+    min-height: 300px;
+    
+}
+
+section.projects img {
+    width: 200px;
+}
+
+.link_project_wrapper {
+    text-align: center;
+    margin-top: 30px;
+}
+
+section.education {
+    background-color: #2b2c2c;
+    padding: 60px 60px;
+    min-height: 450px;
+}
+
+.education_university {
+    height: 100px;
+    padding: 0px 10px 10px 30px;
+    border-left: 2px solid #404242;
+    text-align: left;
+    color: #a4a5a6;
+    font-size: 20px;
+    line-height: 100px;
+}
+
+.wrapper_education {
+    margin-top: 50px;
+    position: relative;
+}
+
+.education_element {
+    border-radius: 100px;
+    width: 20px;
+    height:20px;
+    background-color:#e0a80d;
+    position: absolute;
+    top: -30px;
+    left:-9px
+   
+}
+
+.english {
+    text-align: left;
+    color: #a4a5a6;
+    font-size: 20px;
+    line-height: 100px;
+}
+
+footer {
+    min-height: 100px;
+    background-color: gray;
+    padding: 20px 20px;
+}
+
+img.rsschool_logo {
+    width: 100px;
+    cursor: pointer;
+}
+footer .footer_wrapper{
+    text-align: center;
+}
+
+.footer_divide {
+    border: 0.5px solid darkgray;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 300px;
+}
+
+a.footer_link_mygithub {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color:black;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+a.footer_link_mygithub:hover {
+    color:#e0a80d;
+}
+
+footer .date {
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+}

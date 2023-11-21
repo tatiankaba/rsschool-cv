@@ -1,11 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Educaion</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#code_example">Code</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="about" id="about">
+        <div class="container">
+          <img src="me.jpg" alt="me" class="photo" />
+
+          <div class="about_content">
+            <h2 class="my_name">Tatiana</h2>
+            <h2 class="my_surname">Bodrova</h2>
+            <h1 class="about_profession">Web developer & Front-end Expert</h1>
+            <div class="divide"></div>
+            <div class="about_me">
+              Enthusiastic junior JavaScript developer with a solid foundation
+              in web development technologies. Proficient in writing clean,
+              efficient, and maintainable code, with a keen eye for detail and a
+              passion for learning. Experience in building responsive and
+              interactive user interfaces using modern frameworks such as React.
+              Strong problem-solving skills and a collaborative mindset, eager
+              to contribute to dynamic development teams.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="container">
+          <h2 class="title">Skills</h2>
+          <div class="divide"></div>
+          <div class="items_wrapper">
+            <div class="item">
+                <div class="item_number">01</div>
+              <h3 class="item_title">JavaScript Fundamentals</h3>
+              <div class="item_text">
+                Proficient in core JavaScript concepts, including variables,
+                functions, and control flow, with the ability to build basic
+                applications.
+              </div>
+            </div>
+            <div class="item">
+                <div class="item_number">02</div>
+              <h3 class="item_title">HTML and CSS</h3>
+              <div class="item_text">
+                Solid understanding of HTML5 and CSS3, enabling the creation of
+                visually appealing and responsive web interfaces.
+              </div>
+            </div>
+            <div class="item">
+                <div class="item_number">03</div>
+              <h3 class="item_title">Frontend Frameworks:</h3>
+              <div class="item_text">
+                Familiarity with frontend libraries/frameworks like React,
+                demonstrating the ability to develop interactive and dynamic
+                user interfaces.
+              </div>
+            </div>
+            <div class="item">
+                <div class="item_number">04</div>
+              <h3 class="item_title">Debugging and Troubleshooting:</h3>
+              <div class="item_text">
+                Skilled in identifying and resolving bugs, employing debugging
+                tools, and ensuring code quality.
+              </div>
+            </div>
+            <div class="item">
+                <div class="item_number">05</div>
+              <h3 class="item_title">Version Control (Git)</h3>
+              <div class="item_text">
+                Competent in using Git for version control, collaborating with
+                team members, and managing code repositories.
+              </div>
+            </div>
+            <div class="item">
+                <div class="item_number">06</div>
+              <h3 class="item_title">Problem-solving Attitude</h3>
+              <div class="item_text">
+                Possesses a proactive problem-solving mindset, eager to tackle
+                challenges and learn new skills in a dynamic development
+                environment.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="code" id="code_example">
+        <div class="container">
+            <h2 class="title">Code example</h2>
+            <div class="divide"></div>
+            <pre class="code_example">
+
+    &lt;div class="item"&gt;
+    &lt;div class="item_number">04&lt;/div&gt;
+    &lt;h3 class="item_title"&gt;Debugging and Troubleshooting:&lt;/h3&gt;
+            </pre>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="title">Projects</h2>
+            <div class="divide"></div>
+        </div>
+        <div class="link_project_wrapper">
+            <a href="#" class="link_project" target="_blank">
+                <img src="cv.webp" alt="cv" class="projects_cv">
+            </a>
+        </div>
+      </section>
+      <section class="education" id="education">
+        <div class="container">
+            <h2 class="title">Education and English level</h2>
+            <div class="divide"></div>          
+            <div class="wrapper_education">
+                <div class="education_element"></div>
+                <div class="education_university">
+                    University of Horizon
+    B               achelor's Degree in Computer Science
+                    (2018 - 2022)
+                </div>
+            </div>
+            <div class="wrapper_education">
+                <div class="education_element"></div>
+                <div class="education_university">
+                    University of Horizon
+                    Master's Degree in Artificial Intelligence
+                    (2022 - 2024)
+                </div>
+            </div>
+            <div class="english">English level - upper-intermdediate/advanced</div>
+        </div>
+      </section>
+    </main>
+    <footer id="contacts">
+      <div class="container">
+        <div class="footer_wrapper">
+            <div class="footer_logo_link">
+                <a href="https://rs.school/" class="rsschool_logo_link" target="_blank">
+                    <img src="rsschool.png" alt="rsschool_logo" class="rsschool_logo">
+                </a>
+            </div>
+            <div class="footer_divide"></div>
+            <a href="https://github.com/tatiankaba/rsschool-cv" class="footer_link_mygithub" target="_blank">
+                Link to my github
+            </a>
+            <div class="date">21.11.2023</div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

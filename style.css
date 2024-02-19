@@ -1,0 +1,154 @@
+/* Basic Style */
+body {
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+}
+
+.information-block {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
+}
+
+.information-block img {
+  width: 100%;
+}
+
+.information-block-link {
+  font-family: 'fantasy', cursive;
+}
+
+@media (max-width:768px) {
+  .information-block { 
+    text-align: center;
+  }
+}
+
+.tasks-block {
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
+}
+
+.tasks-add-block {
+  display: flex;
+  margin-top: 20px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+input,
+button {
+  outline: none;
+}
+
+.btn {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #3a3A3a;
+}
+
+/* Heading */
+.tasks-block__title {
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.task-input {
+  display: inline-block;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #dDd;
+  background: #FFF;
+  border-radius: 6px;
+  font-family: 'Lato', sans-serif;
+  color: #888;
+  width: 226px;
+}
+
+.task-input:focus {
+  color: #333;
+}
+
+/* New Task */
+.tasks-add-block__input {
+  width: 100%;
+}
+
+/* Task list */
+.task-unit {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.task-unit__checkbox {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.task-unit__label {
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
+}
+
+.task-unit__delete-btn img {
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
+}
+
+.task-unit__delete-btn img:hover {
+  transform: rotateZ(0);
+}
+
+/* Completed */
+#completed-tasks .task-unit__label {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Edit Task */
+.task-unit .task-input {
+    display: none;
+}
+
+.edit-mode .task-input {
+  display: inline-block;
+  width: 224px;
+}
+
+.edit-mode .task-unit__label {
+  display: none;
+}
